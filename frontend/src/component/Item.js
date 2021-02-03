@@ -16,9 +16,9 @@ const Item = (props) => {
                 </div>
                 <div className="item__lowerThird">
                     <div className="item__buttons">
-                          <Button imp="primary" text={props.leftBtnLink} link={props.leftBtnLink} />
+                          <Button imp="primary" text={props.leftBtnTxt} link={props.leftBtnLink} />
                           {props.twoButtons && (<Button imp="secondary" text={props.rightBtnTxt} link={props.rightBtnLink}/>)}
-                    </div>
+                          </div>
                     {props.first &&(<div className="item__expand">
                     <ExpandMoreIcon/>
                     </div>)}
